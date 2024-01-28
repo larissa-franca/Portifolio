@@ -54,3 +54,14 @@ h2 {
     text-underline-offset: 0;
 }
 
+#Sobre {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+}
+
+#Sobre li {
+    margin-bottom: 16px;
+    margin-left: 32px;
+}
