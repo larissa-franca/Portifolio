@@ -107,9 +107,7 @@ h2 {
 .card img{
     height: 100px;
 }
- .grid-conteiner{
-   
- }
+
 .projetos h2{
     margin: 64px;
     font-weight: 600;
@@ -121,4 +119,49 @@ h2 {
     color: white;
     font-size: 75px;
     text-align: center;
+}
+
+footer{
+    background-color: #5dadae31;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 64px 80px;
+}
+
+footer .titulo {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 24px;
+    align-items: center;
+    display: flex;
+}
+
+
+footer nav a {
+    color: #263138;
+    display: block;
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+
+footer p {
+    margin-bottom: 16px;
+    max-width: 350px;
+}
+
+footer a a {
+    color: #ff725e;
+    text-decoration: none;
+}
+
+#copyright {
+    background-color: #5dadae;
+    padding: 24px;
+    color: #FFFF;
+    text-align: center;
+}
+
+#copyright {
+    color: #c0d8d9;
 }
